@@ -7,6 +7,12 @@
 const DOW_ID = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
 const MON_ID = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
 
+const BOW_ICON_SVG = `<svg class="bow-icon" style="width:15px;transform:translateY(2px)" viewBox="0 0 40 28" aria-hidden="true">
+  <path d="M20 14 C20 14 18 4 8 4 C2 4 0 9 3 13 C6 17 14 16 20 14 Z" fill="var(--ochre)" stroke="var(--ink)" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M20 14 C20 14 22 4 32 4 C38 4 40 9 37 13 C34 17 26 16 20 14 Z" fill="var(--ochre)" stroke="var(--ink)" stroke-width="1.3" stroke-linejoin="round"/>
+  <circle cx="20" cy="14" r="3.2" fill="var(--rose)" stroke="var(--ink)" stroke-width="1.1"/>
+</svg>`;
+
 let state = {
   sessions: [],
   meta: {},
@@ -107,7 +113,7 @@ function renderNextBanner() {
 
   if (upcoming.length === 0) {
     el.className = "next-banner is-empty";
-    el.innerHTML = `<p class="nb-label">Sesi berikutnya</p><p class="nb-materi">Tidak ada sesi terjadwal lagi.</p>`;
+    el.innerHTML = `<p class="nb-label">${BOW_ICON_SVG} Sesi berikutnya</p><p class="nb-materi">Tidak ada sesi terjadwal lagi.</p>`;
     return;
   }
 
@@ -116,7 +122,7 @@ function renderNextBanner() {
   const kelas = (s.kelas || []).join(" & ");
   el.className = "next-banner";
   el.innerHTML = `
-    <p class="nb-label">Sesi berikutnya · ${day.dow}, ${day.dom} ${day.mon}</p>
+    <p class="nb-label">${BOW_ICON_SVG} Sesi berikutnya · ${day.dow}, ${day.dom} ${day.mon}</p>
     <p class="nb-materi">${escapeHtml(s.materi)}</p>
     <div class="nb-meta">
       <span><b>${escapeHtml(s.dosen || "-")}</b></span>
@@ -192,7 +198,7 @@ function renderList() {
 
 function renderSessionOrLibur(s, now) {
   if (s.libur) {
-    return `<div class="libur-row"><span class="label">LIBUR</span></div>`;
+    return `<div class="libur-row"><span class="label">${BOW_ICON_SVG} LIBUR</span></div>`;
   }
 
   const end = parseSessionEnd(s);
