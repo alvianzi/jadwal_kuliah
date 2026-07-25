@@ -6,15 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
-  --ink: #1f2b45;        /* headings, primary text */
-  --ink-soft: #4d5a76;   /* secondary text */
-  --paper: #f6f3ec;      /* page background */
-  --paper-card: #fffdf8; /* card background */
-  --line: #d8d2c2;       /* hairline borders */
-  --ochre: #b3801f;      /* accent — dosen / highlight */
-  --sage: #4d6b5c;       /* accent — online / kelas */
-  --rose: #a8465a;       /* accent — libur */
-  --shadow: 0 1px 0 rgba(31, 43, 69, 0.06);
+  --ink: #5b1f3a;        /* headings, primary text — deep berry */
+  --ink-soft: #93586f;   /* secondary text */
+  --paper: #fdf1f6;      /* page background — soft pink */
+  --paper-card: #fffbfd; /* card background */
+  --line: #f0c9db;       /* hairline borders */
+  --ochre: #e0508a;      /* accent — dosen / highlight / primary pink */
+  --sage: #b23b73;       /* accent — online / kelas */
+  --rose: #c23f63;       /* accent — libur */
+  --shadow: 0 1px 0 rgba(91, 31, 58, 0.06);
 
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
@@ -97,7 +97,7 @@ h1.title {
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #c9cfdd;
+  color: #f4c7dc;
   margin-bottom: 6px;
 }
 
@@ -110,7 +110,7 @@ h1.title {
 
 .next-banner .nb-meta {
   font-size: 13.5px;
-  color: #d7dbe6;
+  color: #f6d5e5;
   display: flex;
   flex-wrap: wrap;
   gap: 4px 14px;
@@ -143,7 +143,7 @@ h1.title {
 
 .btn-primary {
   background: var(--ochre);
-  color: #201404;
+  color: #ffffff;
 }
 .btn-primary:hover { opacity: 0.9; }
 
@@ -337,8 +337,8 @@ h1.title {
     -45deg,
     var(--paper-card),
     var(--paper-card) 8px,
-    #efe9db 8px,
-    #efe9db 16px
+    #f6dcea 8px,
+    #f6dcea 16px
   );
   border: 1px solid var(--line);
   border-radius: var(--radius);
