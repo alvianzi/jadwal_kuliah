@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Matrikulasi — Profesi Psikologi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <p class="eyebrow" id="eyebrow">Fakultas Psikologi · Untag Surabaya</p>
+  <h1 class="title" id="title">Jadwal Matrikulasi</h1>
+  <p class="subtitle" id="subtitle">Memuat data…</p>
+
+  <div class="next-banner is-empty" id="nextBanner">
+    <p class="nb-label">Sesi berikutnya</p>
+    <p class="nb-materi">Memuat jadwal…</p>
+  </div>
+
+  <div class="filters">
+    <input type="search" id="search" placeholder="Cari materi atau dosen…">
+    <button class="chip" data-kelas="all" aria-pressed="true">Semua kelas</button>
+    <button class="chip" data-kelas="A" aria-pressed="false">Kelas A</button>
+    <button class="chip" data-kelas="B" aria-pressed="false">Kelas B</button>
+  </div>
+
+  <div id="list"></div>
+
+  <div class="footer">
+    <span id="updated"></span>
+    <a href="admin.html">Kelola jadwal →</a>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
