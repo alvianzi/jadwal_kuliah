@@ -44,6 +44,53 @@ body {
   max-width: 880px;
   margin: 0 auto;
   padding: 40px 24px 100px;
+  position: relative;
+}
+
+/* ---------- Bow ornaments (coquette accents) ---------- */
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.title-row .title { margin-bottom: 8px; }
+
+.bow-icon {
+  width: 22px;
+  height: auto;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateY(-1px);
+}
+
+.bow-ornament {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 82px;
+  height: auto;
+  transform: rotate(9deg);
+  pointer-events: none;
+  z-index: 0;
+  filter: drop-shadow(0 3px 4px rgba(91, 31, 58, 0.18));
+}
+
+.bow-ornament-footer {
+  position: absolute;
+  bottom: 6px;
+  left: -4px;
+  width: 50px;
+  height: auto;
+  transform: rotate(-16deg);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+@media (max-width: 560px) {
+  .bow-ornament { width: 56px; top: -4px; }
 }
 
 /* ---------- Header ---------- */
@@ -353,6 +400,9 @@ h1.title {
   color: var(--rose);
   font-size: 12.5px;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /* ---------- Footer ---------- */
