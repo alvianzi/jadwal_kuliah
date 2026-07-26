@@ -13,6 +13,8 @@ const BOW_ICON_SVG = `<svg class="bow-icon" style="width:15px;transform:translat
   <circle cx="20" cy="14" r="3.2" fill="var(--rose)" stroke="var(--ink)" stroke-width="1.1"/>
 </svg>`;
 
+const PIN_ICON_SVG = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c-4 0-7 3-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>`;
+
 let state = {
   sessions: [],
   meta: {},
@@ -120,6 +122,7 @@ function renderNextBanner() {
   const { s } = upcoming[0];
   const day = fmtDay(s.date);
   const kelas = (s.kelas || []).join(" & ");
+  const isOffline = (s.sifat || "").toLowerCase() === "offline";
   el.className = "next-banner";
   el.innerHTML = `
     <p class="nb-label">${BOW_ICON_SVG} Sesi berikutnya · ${day.dow}, ${day.dom} ${day.mon}</p>
@@ -128,6 +131,7 @@ function renderNextBanner() {
       <span><b>${escapeHtml(s.dosen || "-")}</b></span>
       <span>${escapeHtml(s.time || "")}</span>
       ${kelas ? `<span>Kelas ${escapeHtml(kelas)}</span>` : ""}
+      ${isOffline ? `<span class="badge sifat-offline">${PIN_ICON_SVG} Offline</span>` : ""}
     </div>
     <div class="nb-actions">
       ${s.zoom?.joinUrl ? `<a class="btn btn-primary" href="${s.zoom.joinUrl}" target="_blank" rel="noopener">Join Zoom</a>` : ""}
@@ -203,20 +207,26 @@ function renderSessionOrLibur(s, now) {
 
   const end = parseSessionEnd(s);
   const isPast = end && end < now;
+  const isOffline = (s.sifat || "").toLowerCase() === "offline";
   const kelasBadges = (s.kelas || []).map((k) => `<span class="badge kelas">Kelas ${escapeHtml(k)}</span>`).join("");
+  const sifatBadge = s.sifat
+    ? isOffline
+      ? `<span class="badge sifat-offline">${PIN_ICON_SVG} ${escapeHtml(s.sifat)}</span>`
+      : `<span class="badge sifat-online">${escapeHtml(s.sifat)}</span>`
+    : "";
 
   return `
-    <div class="session${isPast ? " is-past" : ""}" id="session-${s.id}">
+    <div class="session${isPast ? " is-past" : ""}${isOffline ? " is-offline" : ""}" id="session-${s.id}">
       <div class="session-top">
         <div>
           <p class="session-materi">${escapeHtml(s.materi)}</p>
           <div class="session-meta">
             <span class="dosen">${escapeHtml(s.dosen || "-")}</span>
             <span>${escapeHtml(s.time || "")}</span>
-            <span>${escapeHtml(s.sifat || "")}</span>
           </div>
         </div>
         <div class="badges">
+          ${sifatBadge}
           ${kelasBadges}
           <span class="chevron">›</span>
         </div>
