@@ -232,6 +232,16 @@ h1.title {
 }
 .filters input[type="search"]::placeholder { color: #9aa0ae; }
 
+.legend-note {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: -18px 0 26px;
+}
+.legend-note .badge { font-size: 10.5px; padding: 2px 7px; }
+
 .chip {
   font-family: var(--font-mono);
   font-size: 12px;
@@ -341,6 +351,29 @@ h1.title {
 }
 
 .badge.kelas { color: var(--sage); border-color: var(--sage); }
+
+.badge.sifat-online {
+  color: var(--sage);
+  border-color: var(--line);
+  background: transparent;
+}
+
+.badge.sifat-offline {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--rose);
+  border-color: var(--rose);
+  color: #fff;
+  font-weight: 500;
+}
+.badge.sifat-offline svg { width: 9px; height: 9px; flex-shrink: 0; }
+
+.session.is-offline {
+  border-color: var(--rose);
+  border-left: 4px solid var(--rose);
+  background: linear-gradient(90deg, rgba(194, 63, 99, 0.06), transparent 60%), var(--paper-card);
+}
 
 .chevron {
   color: var(--ink-soft);
