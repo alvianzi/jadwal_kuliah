@@ -45,7 +45,7 @@ function applyMeta() {
   document.title = `${m.title || "Jadwal Matrikulasi"} — ${m.program || ""}`;
   document.getElementById("title").textContent = m.title || "Jadwal Matrikulasi";
   document.getElementById("subtitle").textContent =
-    [m.program, m.angkatan].filter(Boolean).join(" — ");
+    [m.program, m.semester, m.angkatan].filter(Boolean).join(" — ");
 }
 
 function bindControls() {
@@ -198,7 +198,7 @@ function renderList() {
 
 function renderSessionOrLibur(s, now) {
   if (s.libur) {
-    return `<div class="libur-row"><span class="label">${BOW_ICON_SVG} LIBUR</span></div>`;
+    return `<div class="libur-row"><span class="label">${BOW_ICON_SVG} ${escapeHtml(s.keterangan || "LIBUR")}</span></div>`;
   }
 
   const end = parseSessionEnd(s);
