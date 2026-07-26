@@ -393,12 +393,14 @@ h1.title {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 .libur-row .label {
   font-family: var(--font-mono);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   color: var(--rose);
-  font-size: 12.5px;
+  font-size: 12px;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
