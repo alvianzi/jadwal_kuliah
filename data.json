@@ -9,9 +9,20 @@
   },
   "sessions": [
     {
-      "id": "s1", "no": 1, "date": "2026-07-26", "day": "Minggu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "Overview Pendidikan Profesi",
-      "dosen": "Bu Elza", "operator": "umi", "libur": false, "kelas": ["A", "B"],
+      "id": "s1",
+      "no": 1,
+      "date": "2026-07-26",
+      "day": "Minggu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "Overview Pendidikan Profesi",
+      "dosen": "Bu Elza",
+      "operator": "umi",
+      "libur": false,
+      "kelas": [
+        "A",
+        "B"
+      ],
       "zoom": {
         "topic": "Overview Pendidikan Profesi - Bu Elza",
         "waktu": "Jul 26, 2026 01:00 PM Jakarta",
@@ -22,9 +33,20 @@
       }
     },
     {
-      "id": "s2", "no": 2, "date": "2026-07-27", "day": "Senin",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "NST (Nijmeegse Schoolbekwaamheids Test)",
-      "dosen": "Bu Aulia", "operator": "kharis", "libur": false, "kelas": ["A", "B"],
+      "id": "s2",
+      "no": 2,
+      "date": "2026-07-27",
+      "day": "Senin",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "NST (Nijmeegse Schoolbekwaamheids Test)",
+      "dosen": "Bu Aulia",
+      "operator": "kharis",
+      "libur": false,
+      "kelas": [
+        "A",
+        "B"
+      ],
       "zoom": {
         "topic": "Matrikulasi NST - Bu Aulia",
         "waktu": "Jul 27, 2026 06:30 PM Jakarta",
@@ -35,13 +57,37 @@
       }
     },
     {
-      "id": "s3", "no": 3, "date": "2026-07-28", "day": "Selasa",
-      "libur": true, "keterangan": "LIBUR", "kelas": [], "zoom": null
+      "id": "s3",
+      "no": 3,
+      "date": "2026-07-28",
+      "day": "Selasa",
+      "libur": true,
+      "keterangan": "LIBUR",
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s4", "no": 4, "date": "2026-07-29", "day": "Rabu",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Tes Frostig",
-      "dosen": "Bu Isrida", "operator": "umi", "libur": false, "kelas": ["A", "B"],
+      "id": "s4",
+      "no": 4,
+      "date": "2026-07-29",
+      "day": "Rabu",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "Tes Frostig",
+      "dosen": "Bu Isrida",
+      "operator": "umi",
+      "libur": false,
+      "kelas": [
+        "A",
+        "B"
+      ],
       "zoom": {
         "topic": "Matrikulasi Frostiq - Bu Isrida",
         "waktu": "Jul 29, 2026 06:30 PM Jakarta",
@@ -52,22 +98,75 @@
       }
     },
     {
-      "id": "s5", "no": 5, "date": "2026-07-30", "day": "Kamis",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "HARS dan BDI",
-      "dosen": "Bu Ririn", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s5",
+      "no": 5,
+      "date": "2026-07-30",
+      "day": "Kamis",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "HARS dan BDI",
+      "dosen": "Bu Ririn",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s6", "no": 6, "date": "2026-07-31", "day": "Jumat",
-      "libur": true, "keterangan": "LIBUR", "kelas": [], "zoom": null
+      "id": "s6",
+      "no": 6,
+      "date": "2026-07-31",
+      "day": "Jumat",
+      "libur": true,
+      "keterangan": "LIBUR",
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s7", "no": 7, "date": "2026-08-01", "day": "Sabtu",
-      "libur": true, "keterangan": "LIBUR", "kelas": [], "zoom": null
+      "id": "s7",
+      "no": 7,
+      "date": "2026-08-01",
+      "day": "Sabtu",
+      "libur": true,
+      "keterangan": "LIBUR",
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s8", "no": 8, "date": "2026-08-02", "day": "Minggu",
-      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "WISC (Teori)",
-      "dosen": "Bu Novi", "operator": "kharis", "libur": false, "kelas": ["A", "B"],
+      "id": "s8",
+      "no": 8,
+      "date": "2026-08-02",
+      "day": "Minggu",
+      "time": "09.00 - 12.00 WIB",
+      "sifat": "Online",
+      "materi": "WISC (Teori)",
+      "dosen": "Bu Novi",
+      "operator": "kharis",
+      "libur": false,
+      "kelas": [
+        "A",
+        "B"
+      ],
       "zoom": {
         "topic": "Matrikulasi WISC & WAIS - Bu Novi",
         "waktu": "Aug 2, 2026 09:00 AM Jakarta",
@@ -78,9 +177,20 @@
       }
     },
     {
-      "id": "s9", "no": 9, "date": "2026-08-02", "day": "Minggu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "WAIS (Teori)",
-      "dosen": "Bu Novi", "operator": "kharis", "libur": false, "kelas": ["A", "B"],
+      "id": "s9",
+      "no": 9,
+      "date": "2026-08-02",
+      "day": "Minggu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "WAIS (Teori)",
+      "dosen": "Bu Novi",
+      "operator": "kharis",
+      "libur": false,
+      "kelas": [
+        "A",
+        "B"
+      ],
       "zoom": {
         "topic": "Matrikulasi WISC & WAIS - Bu Novi",
         "waktu": "Aug 2, 2026 09:00 AM Jakarta",
@@ -91,162 +201,668 @@
       }
     },
     {
-      "id": "s10", "no": 10, "date": "2026-08-03", "day": "Senin",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "CBCL & VSMS",
-      "dosen": "Bu Isrida", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s10",
+      "no": 10,
+      "date": "2026-08-03",
+      "day": "Senin",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "CBCL & VSMS",
+      "dosen": "Bu Isrida",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s11", "no": 11, "date": "2026-08-04", "day": "Selasa",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Tes Kreativitas (Teori)",
-      "dosen": "Bu Niken", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s11",
+      "no": 11,
+      "date": "2026-08-04",
+      "day": "Selasa",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "Tes Kreativitas (Teori)",
+      "dosen": "Bu Niken",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s12", "no": 12, "date": "2026-08-05", "day": "Rabu",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "CFIT Skala 2 & 3",
-      "dosen": "Bu Rahma", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s12",
+      "no": 12,
+      "date": "2026-08-05",
+      "day": "Rabu",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "CFIT Skala 2 & 3",
+      "dosen": "Bu Rahma",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s13", "no": 13, "date": "2026-08-06", "day": "Kamis",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "PAPI Kostick",
-      "dosen": "Bu Diah Sofiah", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s13",
+      "no": 13,
+      "date": "2026-08-06",
+      "day": "Kamis",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "PAPI Kostick",
+      "dosen": "Bu Diah Sofiah",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s14", "no": 14, "date": "2026-08-07", "day": "Jumat",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "DISC",
-      "dosen": "Bu Niken", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s14",
+      "no": 14,
+      "date": "2026-08-07",
+      "day": "Jumat",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "DISC",
+      "dosen": "Bu Niken",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s15", "no": 15, "date": "2026-08-07", "day": "Jumat",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "16 PF",
-      "dosen": "Bu Dyan", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s15",
+      "no": 15,
+      "date": "2026-08-07",
+      "day": "Jumat",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "16 PF",
+      "dosen": "Bu Dyan",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s16", "no": 16, "date": "2026-08-08", "day": "Sabtu",
-      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "IST",
-      "dosen": "Bu Diah Sofiah", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s16",
+      "no": 16,
+      "date": "2026-08-08",
+      "day": "Sabtu",
+      "time": "09.00 - 12.00 WIB",
+      "sifat": "Online",
+      "materi": "IST",
+      "dosen": "Bu Diah Sofiah",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s17", "no": 17, "date": "2026-08-08", "day": "Sabtu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "TIKI (Teori)",
-      "dosen": "Pak Aji", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s17",
+      "no": 17,
+      "date": "2026-08-08",
+      "day": "Sabtu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "TIKI (Teori)",
+      "dosen": "Pak Aji",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s18", "no": 18, "date": "2026-08-09", "day": "Minggu",
-      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "Tes Pauli & Tes Kraepelin",
-      "dosen": "Dyan", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s18",
+      "no": 18,
+      "date": "2026-08-09",
+      "day": "Minggu",
+      "time": "09.00 - 12.00 WIB",
+      "sifat": "Online",
+      "materi": "Tes Pauli & Tes Kraepelin",
+      "dosen": "Dyan",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s19", "no": 19, "date": "2026-08-09", "day": "Minggu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "MSDT",
-      "dosen": "Yanto", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s19",
+      "no": 19,
+      "date": "2026-08-09",
+      "day": "Minggu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "MSDT",
+      "dosen": "Yanto",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s20", "no": 20, "date": "2026-08-10", "day": "Senin",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "FSCT / SSCT",
-      "dosen": "Suhadianto", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s20",
+      "no": 20,
+      "date": "2026-08-10",
+      "day": "Senin",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "FSCT / SSCT",
+      "dosen": "Suhadianto",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s21", "no": 21, "date": "2026-08-11", "day": "Selasa",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "EPPS",
-      "dosen": "Etik", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s21",
+      "no": 21,
+      "date": "2026-08-11",
+      "day": "Selasa",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "EPPS",
+      "dosen": "Etik",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s22", "no": 22, "date": "2026-08-12", "day": "Rabu",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Tes Binet (Teori)",
-      "dosen": "Rina", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s22",
+      "no": 22,
+      "date": "2026-08-12",
+      "day": "Rabu",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "Tes Binet (Teori)",
+      "dosen": "Rina",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s23", "no": 23, "date": "2026-08-13", "day": "Kamis",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Genogram (Teori)",
-      "dosen": "Ria", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s23",
+      "no": 23,
+      "date": "2026-08-13",
+      "day": "Kamis",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "Genogram (Teori)",
+      "dosen": "Ria",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s24", "no": 24, "date": "2026-08-14", "day": "Jumat",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "Tes Binet (Praktik)",
-      "dosen": "Rina", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s24",
+      "no": 24,
+      "date": "2026-08-14",
+      "day": "Jumat",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "Tes Binet (Praktik)",
+      "dosen": "Rina",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s25", "no": 25, "date": "2026-08-14", "day": "Jumat",
-      "time": "17.00 - 21.00 WIB", "sifat": "Online", "materi": "Genogram (Praktik)",
-      "dosen": "Ria", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s25",
+      "no": 25,
+      "date": "2026-08-14",
+      "day": "Jumat",
+      "time": "17.00 - 21.00 WIB",
+      "sifat": "Offline",
+      "materi": "Genogram (Praktik)",
+      "dosen": "Ria",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s26", "no": 26, "date": "2026-08-15", "day": "Sabtu",
-      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "WISC (Praktik)",
-      "dosen": "Novi", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s26",
+      "no": 26,
+      "date": "2026-08-15",
+      "day": "Sabtu",
+      "time": "09.00 - 12.00 WIB",
+      "sifat": "Offline",
+      "materi": "WISC (Praktik)",
+      "dosen": "Novi",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s27", "no": 27, "date": "2026-08-15", "day": "Sabtu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "WAIS (Praktik)",
-      "dosen": "Novi", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s27",
+      "no": 27,
+      "date": "2026-08-15",
+      "day": "Sabtu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "WAIS (Praktik)",
+      "dosen": "Novi",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s28", "no": 28, "date": "2026-08-16", "day": "Minggu",
-      "time": "08.00 - 12.00 WIB", "sifat": "Online", "materi": "Tes Kreativitas (Praktik)",
-      "dosen": "Bu Niken", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s28",
+      "no": 28,
+      "date": "2026-08-16",
+      "day": "Minggu",
+      "time": "08.00 - 12.00 WIB",
+      "sifat": "Online",
+      "materi": "Tes Kreativitas (Praktik)",
+      "dosen": "Bu Niken",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s29", "no": 29, "date": "2026-08-16", "day": "Minggu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "TIKI (Praktik)",
-      "dosen": "Pak Aji", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s29",
+      "no": 29,
+      "date": "2026-08-16",
+      "day": "Minggu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Offline",
+      "materi": "TIKI (Praktik)",
+      "dosen": "Pak Aji",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s30", "no": 30, "date": "2026-08-17", "day": "Senin",
-      "libur": true, "keterangan": "LIBUR HUT KEMERDEKAAN", "kelas": [], "zoom": null
+      "id": "s30",
+      "no": 30,
+      "date": "2026-08-17",
+      "day": "Senin",
+      "libur": true,
+      "keterangan": "LIBUR HUT KEMERDEKAAN",
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s31", "no": 31, "date": "2026-08-18", "day": "Selasa",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "TSI",
-      "dosen": "Isrida", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s31",
+      "no": 31,
+      "date": "2026-08-18",
+      "day": "Selasa",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "TSI",
+      "dosen": "Isrida",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s32", "no": 32, "date": "2026-08-19", "day": "Rabu",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "BEI",
-      "dosen": "Amanda", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s32",
+      "no": 32,
+      "date": "2026-08-19",
+      "day": "Rabu",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "BEI",
+      "dosen": "Amanda",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s33", "no": 33, "date": "2026-08-20", "day": "Kamis",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "SWOT & Fishbone",
-      "dosen": "Bagus", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s33",
+      "no": 33,
+      "date": "2026-08-20",
+      "day": "Kamis",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "SWOT & Fishbone",
+      "dosen": "Bagus",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s34", "no": 34, "date": "2026-08-21", "day": "Jumat",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "Grafis",
-      "dosen": "Herlan", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s34",
+      "no": 34,
+      "date": "2026-08-21",
+      "day": "Jumat",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "Grafis",
+      "dosen": "Herlan",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s35", "no": 35, "date": "2026-08-22", "day": "Sabtu",
-      "time": "09.00 - 16.00 WIB", "sifat": "Offline", "materi": "Bakat Minat",
-      "dosen": "Tatik", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s35",
+      "no": 35,
+      "date": "2026-08-22",
+      "day": "Sabtu",
+      "time": "09.00 - 16.00 WIB",
+      "sifat": "Offline",
+      "materi": "Bakat Minat",
+      "dosen": "Tatik",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s36", "no": 36, "date": "2026-08-22", "day": "Sabtu",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "WARTEG",
-      "dosen": "Herlan", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s36",
+      "no": 36,
+      "date": "2026-08-22",
+      "day": "Sabtu",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "WARTEG",
+      "dosen": "Herlan",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s37", "no": 37, "date": "2026-08-23", "day": "Minggu",
-      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "Whodass & Dass",
-      "dosen": "M Ananta", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s37",
+      "no": 37,
+      "date": "2026-08-23",
+      "day": "Minggu",
+      "time": "09.00 - 12.00 WIB",
+      "sifat": "Online",
+      "materi": "Whodass & Dass",
+      "dosen": "M Ananta",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s38", "no": 38, "date": "2026-08-23", "day": "Minggu",
-      "time": "13.00 - 16.00 WIB", "sifat": "Online", "materi": "AMT & MMSE",
-      "dosen": "Nindia", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s38",
+      "no": 38,
+      "date": "2026-08-23",
+      "day": "Minggu",
+      "time": "13.00 - 16.00 WIB",
+      "sifat": "Online",
+      "materi": "AMT & MMSE",
+      "dosen": "Nindia",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s39", "no": 39, "date": "2026-08-24", "day": "Senin",
-      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Bender Gestalt",
-      "dosen": "Suhadianto", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s39",
+      "no": 39,
+      "date": "2026-08-24",
+      "day": "Senin",
+      "time": "18.30 - 21.30 WIB",
+      "sifat": "Online",
+      "materi": "Bender Gestalt",
+      "dosen": "Suhadianto",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s40", "no": 40, "date": "2026-08-25", "day": "Selasa",
-      "libur": true, "keterangan": "LIBUR MAULID NABI MUHAMMAD SAW", "kelas": [], "zoom": null
+      "id": "s40",
+      "no": 40,
+      "date": "2026-08-25",
+      "day": "Selasa",
+      "libur": true,
+      "keterangan": "LIBUR MAULID NABI MUHAMMAD SAW",
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     },
     {
-      "id": "s41", "no": 41, "date": "2026-08-26", "day": "Rabu",
-      "time": "19.00 - 21.00 WIB", "sifat": "Online", "materi": "Tes Psikodiagnostika",
-      "dosen": "Ali", "operator": "", "libur": false, "kelas": [], "zoom": null
+      "id": "s41",
+      "no": 41,
+      "date": "2026-08-26",
+      "day": "Rabu",
+      "time": "19.00 - 21.00 WIB",
+      "sifat": "Online",
+      "materi": "Tes Psikodiagnostika",
+      "dosen": "Ali",
+      "operator": "",
+      "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
     }
   ]
 }
