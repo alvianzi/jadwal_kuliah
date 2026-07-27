@@ -3,7 +3,7 @@
    Design: "Ledger" — a clinical case-register aesthetic.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Caveat:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
   --ink: #5b1f3a;        /* headings, primary text — deep berry */
@@ -17,10 +17,11 @@
   --shadow: 0 1px 0 rgba(91, 31, 58, 0.06);
 
   --font-display: 'Fraunces', Georgia, serif;
+  --font-script: 'Caveat', cursive;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
 
-  --radius: 10px;
+  --radius: 14px;
 }
 
 * { box-sizing: border-box; }
@@ -30,10 +31,8 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background: var(--paper);
-  background-image:
-    linear-gradient(var(--line) 1px, transparent 1px);
-  background-size: 100% 44px;
-  background-attachment: local;
+  background-image: radial-gradient(var(--line) 1.4px, transparent 1.4px);
+  background-size: 22px 22px;
   color: var(--ink);
   font-family: var(--font-body);
   line-height: 1.5;
@@ -116,10 +115,28 @@ h1.title {
 .subtitle {
   color: var(--ink-soft);
   font-size: 15px;
-  margin: 0 0 32px;
+  margin: 0 0 4px;
+}
+
+.cute-tagline {
+  font-family: var(--font-script);
+  font-size: 20px;
+  color: var(--ochre);
+  transform: rotate(-1.5deg);
+  margin: 0 0 28px;
+}
+
+.sparkle {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: -2px;
 }
 
 /* ---------- Next-session banner (signature element) ---------- */
+
+.next-banner-wrap { position: relative; margin-bottom: 40px; }
+.next-banner-wrap .next-banner { margin-bottom: 0; }
 
 .next-banner {
   position: relative;
@@ -304,11 +321,31 @@ h1.title {
 }
 
 .session {
+  position: relative;
   background: var(--paper-card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 14px 16px;
+  padding: 18px 16px 14px;
   box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.session::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 10px;
+  right: 10px;
+  height: 8px;
+  background-image: radial-gradient(circle at 6px 0, transparent 5px, var(--paper-card) 5.5px);
+  background-size: 12px 8px;
+  background-repeat: repeat-x;
+  pointer-events: none;
+}
+
+.session:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(91, 31, 58, 0.12);
 }
 
 .session.is-past { opacity: 0.55; }
