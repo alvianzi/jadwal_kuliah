@@ -57,27 +57,10 @@
       }
     },
     {
-      "id": "s3",
-      "no": 3,
-      "date": "2026-07-28",
-      "day": "Selasa",
-      "libur": true,
-      "keterangan": "LIBUR",
-      "kelas": [],
-      "zoom": {
-        "topic": "",
-        "waktu": "",
-        "joinUrl": "",
-        "chatUrl": "",
-        "meetingId": "",
-        "passcode": "Untag178"
-      }
-    },
-    {
       "id": "s4",
       "no": 4,
-      "date": "2026-07-29",
-      "day": "Rabu",
+      "date": "2026-07-28",
+      "day": "Selasa",
       "time": "18.30 - 21.30 WIB",
       "sifat": "Online",
       "materi": "Tes Frostig",
@@ -90,7 +73,7 @@
       ],
       "zoom": {
         "topic": "Matrikulasi Frostiq - Bu Isrida",
-        "waktu": "Jul 29, 2026 06:30 PM Jakarta",
+        "waktu": "Jul 28, 2026 06:30 PM Jakarta",
         "joinUrl": "https://zoom.us/j/96705822232?pwd=a9MIbKBUE5E7F6AUOILYWkYv3QozQN.1",
         "chatUrl": "https://zoom.us/launch/jc/96705822232",
         "meetingId": "967 0582 2232",
@@ -100,14 +83,31 @@
     {
       "id": "s5",
       "no": 5,
-      "date": "2026-07-30",
-      "day": "Kamis",
+      "date": "2026-07-29",
+      "day": "Rabu",
       "time": "18.30 - 21.30 WIB",
       "sifat": "Online",
       "materi": "HARS dan BDI",
       "dosen": "Bu Ririn",
       "operator": "",
       "libur": false,
+      "kelas": [],
+      "zoom": {
+        "topic": "",
+        "waktu": "",
+        "joinUrl": "",
+        "chatUrl": "",
+        "meetingId": "",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s3",
+      "no": 3,
+      "date": "2026-07-30",
+      "day": "Kamis",
+      "libur": true,
+      "keterangan": "LIBUR",
       "kelas": [],
       "zoom": {
         "topic": "",
