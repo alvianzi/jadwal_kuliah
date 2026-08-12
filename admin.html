@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelola Jadwal — Admin</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="160x160" href="logo_untag.png">
+<link rel="apple-touch-icon" href="logo_untag.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .admin-wrap { max-width: 980px; }
+  .panel {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    margin-bottom: 20px;
+  }
+  .panel h2 {
+    font-family: var(--font-display);
+    font-size: 16px;
+    margin: 0 0 4px;
+  }
+  .panel p.hint { font-size: 13px; color: var(--ink-soft); margin: 0 0 14px; }
+  .row-flex { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+  .entry {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 14px;
+    background: var(--paper-card);
+  }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .entry-head .tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+  label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 4px;
+  }
+  input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    padding: 7px 9px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  fieldset {
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    margin: 10px 0 0;
+    padding: 10px 12px 2px;
+  }
+  fieldset legend {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 0 6px;
+  }
+  .kelas-toggle { display: flex; gap: 8px; margin-bottom: 10px; }
+  .kelas-toggle label.pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    text-transform: none; font-family: var(--font-body); font-size: 13px;
+    border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px;
+    cursor: pointer; color: var(--ink);
+  }
+  .libur-toggle { display: flex; align-items: center; gap: 8px; margin: 4px 0 12px; }
+  .libur-toggle label { margin: 0; text-transform: none; font-size: 13px; color: var(--ink); }
+  .entry.is-libur .fields-normal { display: none; }
+  .btn-small { font-size: 12.5px; padding: 6px 11px; }
+  .btn-danger { background: var(--rose); color: #fff; }
+  #fileInput { display: none; }
+  .toast {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    background: var(--ink); color: #fff; padding: 10px 18px; border-radius: 8px;
+    font-size: 13px; opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="wrap admin-wrap">
+
+  <div class="brand-row">
+    <img src="logo_untag.png" alt="Logo Untag Surabaya" class="site-logo">
+    <p class="eyebrow">Kelola Jadwal</p>
+  </div>
+  <div class="title-row">
+    <h1 class="title" style="font-size: 32px;">Editor Jadwal Matrikulasi</h1>
+    <svg class="bow-icon" viewBox="0 0 40 28" aria-hidden="true">
+      <path d="M20 14 C20 14 18 4 8 4 C2 4 0 9 3 13 C6 17 14 16 20 14 Z" fill="var(--ochre)" stroke="var(--ink)" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M20 14 C20 14 22 4 32 4 C38 4 40 9 37 13 C34 17 26 16 20 14 Z" fill="var(--ochre)" stroke="var(--ink)" stroke-width="1.3" stroke-linejoin="round"/>
+      <circle cx="20" cy="14" r="3.2" fill="var(--rose)" stroke="var(--ink)" stroke-width="1.1"/>
+    </svg>
+  </div>
+  <p class="subtitle">
+    <strong>Catatan:</strong> jadwal utama sekarang diambil <strong>otomatis dan live</strong> dari
+    <a href="https://docs.google.com/spreadsheets/d/1Hq7eqmqmB6APv2zGQknvdbuZW7jbj9oL/edit?gid=1868004957" target="_blank" rel="noopener">Google Sheets ini</a> —
+    edit langsung di sana, nggak perlu lewat halaman ini lagi. Halaman editor ini cuma buat memperbarui
+    <code>data.json</code>, yaitu cache cadangan yang dipakai <a href="index.html">jadwal utama</a>
+    kalau-kalau Google Sheets-nya gagal diakses.
+  </p>
+
+  <div class="panel">
+    <h2>Meta</h2>
+    <p class="hint">Judul dan info program yang tampil di bagian atas halaman jadwal.</p>
+    <div class="grid2">
+      <div><label>Judul</label><input type="text" id="metaTitle"></div>
+      <div><label>Program</label><input type="text" id="metaProgram"></div>
+      <div><label>Fakultas</label><input type="text" id="metaFakultas"></div>
+      <div><label>Angkatan</label><input type="text" id="metaAngkatan"></div>
+    </div>
+  </div>
+
+  <div class="row-flex" style="margin-bottom: 16px;">
+    <button class="btn btn-primary" id="btnAdd">+ Tambah sesi</button>
+    <button class="btn btn-ghost" style="border-color:var(--line);color:var(--ink)" id="btnUpload">Muat ulang dari file…</button>
+    <input type="file" id="fileInput" accept="application/json">
+    <button class="btn btn-primary" id="btnDownload" style="margin-left:auto;">⬇ Unduh data.json</button>
+  </div>
+
+  <div id="entries"></div>
+
+  <button class="btn btn-primary" id="btnAdd2">+ Tambah sesi</button>
+
+  <div class="footer">
+    <a href="index.html">← Kembali ke jadwal</a>
+    <span>Perubahan hanya tersimpan di halaman ini sampai kamu unduh &amp; commit ulang <code>data.json</code>.</span>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>

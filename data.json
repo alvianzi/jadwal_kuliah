@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "JADWAL MATRIKULASI",
+    "program": "PENDIDIKAN PROFESI PSIKOLOGI",
+    "fakultas": "FAKULTAS PSIKOLOGI UNIVERSITAS 17 AGUSTUS 1945 SURABAYA",
+    "angkatan": "Angkatan 6",
+    "semester": "",
+    "passcodeDefault": "Untag178"
+  },
+  "sessions": [
+    {
+      "id": "s1", "no": 1, "date": "2026-08-10", "day": "Senin",
+      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Papi Kostick",
+      "dosen": "Bu Diah Sofiah", "operator": "umi", "libur": false, "kelas": ["A", "B"],
+      "zoom": {
+        "topic": "Matrikulasi Papi Kostick - Bu Diah Sofiah",
+        "waktu": "Aug 10, 2026 06:30 PM Jakarta",
+        "joinUrl": "https://zoom.us/j/96498065900?pwd=78czaHlVJaGFoRumKX5kadaDF1Xbns.1",
+        "chatUrl": "https://zoom.us/launch/jc/96498065900",
+        "meetingId": "964 9806 5900",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s2", "no": 2, "date": "2026-08-11", "day": "Selasa",
+      "time": "19.00 - 22.00 WIB", "sifat": "Online", "materi": "DISC",
+      "dosen": "Bu Niken", "operator": "kharis", "libur": false, "kelas": ["A", "B"],
+      "zoom": {
+        "topic": "Matrikulasi DISC - Bu Niken",
+        "waktu": "Aug 11, 2026 07:00 PM Jakarta",
+        "joinUrl": "https://zoom.us/j/94327530960?pwd=paHZQWw3CK5JZNpSKuq9W5eSaLHA6e.1",
+        "chatUrl": "https://zoom.us/launch/jc/94327530960",
+        "meetingId": "943 2753 0960",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s3", "no": 3, "date": "2026-08-12", "day": "Rabu",
+      "time": "18.30 - 21.30 WIB", "sifat": "Online", "materi": "Tes Binet (Teori)",
+      "dosen": "Bu Rina", "operator": "ali", "libur": false, "kelas": ["A", "B"],
+      "zoom": {
+        "topic": "Matrikulasi Tes Binnet (Teori) - Bu Rina",
+        "waktu": "Aug 12, 2026 06:30 PM Jakarta",
+        "joinUrl": "https://zoom.us/j/92748303603?pwd=j1gh4go7vpdvhVOLtSMrbsDQBDQ1JC.1",
+        "chatUrl": "https://zoom.us/launch/jc/92748303603",
+        "meetingId": "927 4830 3603",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s4", "no": 4, "date": "2026-08-13", "day": "Kamis",
+      "time": "19.00 - 22.00 WIB", "sifat": "Online", "materi": "Tes Kreativitas (Teori)",
+      "dosen": "Bu Niken", "operator": "umi", "libur": false, "kelas": ["A", "B"],
+      "zoom": {
+        "topic": "Matrikulasi Tes Kreativitas - Bu Niken",
+        "waktu": "Aug 13, 2026 07:00 PM Jakarta",
+        "joinUrl": "https://zoom.us/j/97404013622?pwd=5Pl66lmGocZmrp71Jxvll9azp9vCpH.1",
+        "chatUrl": "https://zoom.us/launch/jc/97404013622",
+        "meetingId": "974 0401 3622",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s5", "no": 5, "date": "2026-08-14", "day": "Jumat",
+      "time": "13.00 - 16.00 WIB", "sifat": "Offline", "materi": "WISC (Praktik)",
+      "dosen": "Bu Novi", "operator": "", "libur": false, "kelas": ["A", "B"], "zoom": null
+    },
+    {
+      "id": "s6", "no": 6, "date": "2026-08-14", "day": "Jumat",
+      "time": "18.00 - 21.00 WIB", "sifat": "Offline", "materi": "WAIS (Praktik)",
+      "dosen": "", "operator": "", "libur": false, "kelas": ["A"], "zoom": null
+    },
+    {
+      "id": "s7", "no": 7, "date": "2026-08-15", "day": "Sabtu",
+      "time": "09.00 - 12.00 WIB", "sifat": "Online", "materi": "Bakat Minat",
+      "dosen": "Bu Tatik", "operator": "Kharis", "libur": false, "kelas": ["A", "B"],
+      "zoom": {
+        "topic": "Matrikulasi Bakat Minat - Bu Tatik",
+        "waktu": "Aug 15, 2026 09:00 AM Jakarta",
+        "joinUrl": "https://zoom.us/j/92538866200?pwd=KFmxaAJJMkTd1BDeb3bgK8WTlaeYod.1",
+        "chatUrl": "https://zoom.us/launch/jc/92538866200",
+        "meetingId": "925 3886 6200",
+        "passcode": "Untag178"
+      }
+    },
+    {
+      "id": "s8", "no": 8, "date": "2026-08-15", "day": "Sabtu",
+      "time": "13.00 - 16.00 WIB", "sifat": "Offline", "materi": "Genogram (Praktik)",
+      "dosen": "Bu Ria", "operator": "", "libur": false, "kelas": ["A"], "zoom": null
+    },
+    {
+      "id": "s9", "no": 9, "date": "2026-08-16", "day": "Minggu",
+      "time": "09.00 - 12.00 WIB", "sifat": "Offline", "materi": "Tes Kreativias (Praktik)",
+      "dosen": "Bu Niken", "operator": "", "libur": false, "kelas": ["A"], "zoom": null
+    },
+    {
+      "id": "s10", "no": 10, "date": "2026-08-16", "day": "Minggu",
+      "time": "18.30 - 21.30 WIB", "sifat": "Offline", "materi": "TIKI (Praktik)",
+      "dosen": "Pak Aji", "operator": "", "libur": false, "kelas": ["A"], "zoom": null
+    }
+  ]
+}
